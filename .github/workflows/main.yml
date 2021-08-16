@@ -21,7 +21,10 @@ jobs:
           node-version: 14
           registry-url: https://npm.pkg.github.com/
           scope: '@jamesyong-42'
-      - run: npm version patch    
+      - run: npm version patch
+        env: 
+          GIT_AUTHOR_EMAIL: me@jamesyong42.com
+          GIT_AUTHOR_NAME: james yong
       - run: npm install
       - run: npm publish
         env: 
