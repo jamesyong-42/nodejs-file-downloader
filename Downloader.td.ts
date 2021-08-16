@@ -1,5 +1,4 @@
 import http from 'http';
-export = Downloader;
 
 
 interface DownloaderConfig{
@@ -23,7 +22,7 @@ interface DownloaderConfig{
 
 }
 
-declare class Downloader {
+export declare class Downloader {
 
     constructor(config: DownloaderConfig);
 
