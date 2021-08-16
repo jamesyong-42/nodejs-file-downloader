@@ -1,6 +1,6 @@
 {
   "name": "@jamesyong-42/nodejs-file-downloader",
-  "version": "4.7.2",
+  "version": "4.7.3",
   "description": "A file downloader for NodeJs",
   "main": "Downloader.js",
   "publishConfig": {
