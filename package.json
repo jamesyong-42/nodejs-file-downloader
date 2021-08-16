@@ -3,6 +3,9 @@
   "version": "4.7.2",
   "description": "A file downloader for NodeJs",
   "main": "Downloader.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@jamesyong-42"
+  },
   "scripts": {
     "test": "mocha *.test.js",
     "test-main": "mocha main.test.js",
